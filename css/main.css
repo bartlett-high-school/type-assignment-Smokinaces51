@@ -1,5 +1,25 @@
 /* Hint! the @font-face rule needs to be the first thing in your CSS file!*/
 
+@font-face {
+    font-family: 'source_sans_proregular';
+    src: url('..fonts/sourcesanspro-regular-webfont.woff2') format('woff2'),
+         url('..fonts/sourcesanspro-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'advent_proregular';
+    src: url('..fonts/adventpro-regular-webfont.woff2') format('woff2'),
+         url('..fonts/adventpro-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
 
 /* Start the CSS*/
 body {
